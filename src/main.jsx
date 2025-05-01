@@ -6,8 +6,8 @@ import App from './App.jsx';
 import { UserProvider } from './context/UserContext.jsx';
 import { ChatProvider } from './context/ChatContext.jsx';
 
-export const server = "http://localhost:8000"; // Replace with your backend URL
-// export const server = "https://tarunaichatserver.onrender.com"; // Replace with your backend URL
+// export const server = "http://localhost:8000"; // Replace with your backend URL
+ export const server = "https://bwu-ai-backend.onrender.com"; // Replace with your backend URL
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
